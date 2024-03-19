@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return "Sveiki!"
 
-if __name__ == '__main':
+if __name__ == '__main__':
     app.run(port = 5000)
     
 print("Sveiki!") 
